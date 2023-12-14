@@ -1,0 +1,19 @@
+package nota;
+
+public class Nota {
+
+	private int nota;
+
+	public Nota(int valorInicial) {
+		this.nota = valorInicial;
+	}
+
+	public int getValor() {
+		return this.nota;
+	}
+	
+	public boolean aprobado () {
+		this.nota >= 4 return true;
+	}
+
+}

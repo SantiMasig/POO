@@ -1,0 +1,15 @@
+package nota;
+
+import org.junit.jupiter.api.Test;
+
+public class TestNota {
+
+	@Test
+	public void testDesaprobado() {
+
+		Nota santiago = new Nota(3);
+		
+
+	}
+
+}

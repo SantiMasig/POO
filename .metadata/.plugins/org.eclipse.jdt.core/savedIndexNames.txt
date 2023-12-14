@@ -15,7 +15,6 @@ INDEX VERSION 1.134+C:\Users\hola\Desktop\Santi\Universidad\POO_SM\.metadata\.pl
 4046124134.index
 1525483752.index
 662677841.index
-3199981312.index
 2989287011.index
 1201473840.index
 1696264553.index

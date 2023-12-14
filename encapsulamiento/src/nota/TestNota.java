@@ -1,0 +1,19 @@
+package nota;
+
+import static org.junit.Assert.*;
+
+import org.junit.jupiter.api.Test;
+
+public class TestNota {
+
+	@Test
+	public void testDesaprobado() {
+
+		Nota santiago = new Nota(3);
+		assertTrue(santiago.desaprobado());
+		assertFalse(santiago.aprobado());
+		santiago.recuperar(5);
+		assertTrue(santiago.aprobado());
+	}
+
+}

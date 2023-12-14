@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestNota" project="encapsulamiento" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="nota.TestNota" time="0.027" displayname="TestNota" uniqueid="[engine:junit-jupiter]/[class:nota.TestNota]">
+    <testcase name="testDesaprobado" classname="nota.TestNota" time="0.027" displayname="testDesaprobado()" uniqueid="[engine:junit-jupiter]/[class:nota.TestNota]/[method:testDesaprobado()]"/>
+  </testsuite>
+</testrun>

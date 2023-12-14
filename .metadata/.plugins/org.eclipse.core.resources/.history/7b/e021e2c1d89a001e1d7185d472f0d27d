@@ -1,0 +1,15 @@
+package nota;
+
+public class Nota {
+
+	private int nota;
+
+	public Nota(int valorInicial) {
+		this.nota = valorInicial;
+	}
+	
+	public int getValor () {
+		
+	}
+
+}

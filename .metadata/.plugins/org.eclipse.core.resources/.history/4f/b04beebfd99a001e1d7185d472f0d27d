@@ -1,0 +1,34 @@
+package nota;
+
+public class Nota {
+
+	private int nota;
+
+	public Nota(int valorNota) {
+		this.nota = valorNota;
+	}
+
+	public void setValorNota(int valorNota) {
+		if (esNotaValida(valorNota))
+			this.setValorNota(valorNota);
+	}
+
+	public int getValor() {
+		return this.nota;
+	}
+
+	public boolean aprobado() {
+		return this.nota >= 4;
+	}
+
+	public boolean desaprobado() {
+		return this.nota < 4;
+	}
+
+	public boolean esNotaValida(int nota) {
+		if (nota < 0 || nota > 10)
+			throw new Error("La nota ingresadad es invalida!");
+		return true;
+	}
+
+}

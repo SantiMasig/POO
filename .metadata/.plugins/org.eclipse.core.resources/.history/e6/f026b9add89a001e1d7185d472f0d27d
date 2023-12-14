@@ -1,0 +1,11 @@
+package nota;
+
+public class Nota {
+
+	private int nota;
+
+	public Nota(int valorInicial) {
+		nota = valorInicial;
+	}
+
+}

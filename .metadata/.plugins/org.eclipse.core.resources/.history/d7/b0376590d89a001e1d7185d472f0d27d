@@ -1,0 +1,14 @@
+package nota;
+
+public class Nota {
+	
+	private int nota;
+	
+	
+	
+	
+	
+	
+	
+	
+}
