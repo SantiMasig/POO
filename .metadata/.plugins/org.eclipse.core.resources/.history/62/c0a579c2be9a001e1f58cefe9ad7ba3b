@@ -1,0 +1,12 @@
+package producto;
+
+import org.junit.jupiter.api.Test;
+
+public class TestProducto {
+
+	@Test
+	public agregarParametros () {
+			
+	}
+
+}

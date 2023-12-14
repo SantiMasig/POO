@@ -1,0 +1,14 @@
+package producto;
+
+import org.junit.jupiter.api.Test;
+
+public class TestProducto {
+
+	@Test
+	public void agregarParametros() {
+
+		Producto celular = new Producto(01, "Iphone 13 Pro", 150000, 10);
+		System.out.println(celular.toString());
+	}
+
+}

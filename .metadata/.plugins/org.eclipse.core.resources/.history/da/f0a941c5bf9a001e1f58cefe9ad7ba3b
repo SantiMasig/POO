@@ -1,0 +1,26 @@
+package producto;
+
+import org.junit.jupiter.api.Test;
+
+public class TestProducto {
+
+	@Test
+	public void agregarProductos() {
+
+		Producto celular = new Producto(01, "Iphone 13 Pro", 300000, 10);
+		System.out.println(celular.toString());
+		Producto laptop = new Producto(02, "Laptop lenovo", 250000, 20);
+		System.out.println(laptop.toString());
+	}
+
+	@Test
+	public void agregarStock() {
+		Producto celular = new Producto(01, "Iphone 13 Pro", 300000, 10);
+		System.out.println(celular.toString());
+		Producto laptop = new Producto(02, "Laptop lenovo", 250000, 20);
+		System.out.println(laptop.toString());
+		celular.setStock(+10);
+
+	}
+
+}
