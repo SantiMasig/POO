@@ -1,0 +1,14 @@
+package libro;
+
+import org.junit.jupiter.api.Test;
+
+public class TestLibro {
+
+	@Test
+	public void testLibro() {
+
+		Libro biblia = new Libro(123, "Biblia", 142, 5500);
+		System.out.println(biblia.toString());
+	}
+
+}

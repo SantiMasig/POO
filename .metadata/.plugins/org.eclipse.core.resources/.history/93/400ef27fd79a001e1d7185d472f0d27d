@@ -1,0 +1,23 @@
+package libro;
+
+public class Libro {
+
+	private int id;
+	private String nombre;
+	private int stock;
+	private float precio;
+
+	public Libro(int id, String nombre, int stock, float precio) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.stock = stock;
+		this.precio = precio;
+	}
+
+	public Libro () {
+		
+	}
+	
+	
+}
